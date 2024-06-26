@@ -99,3 +99,4 @@ getgenv().Faith = {
 }
 
 script_key = getgenv().Faith.key --// do not fucking touch this
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/25c24c193c139ebcb35334998747d972.lua"))()
