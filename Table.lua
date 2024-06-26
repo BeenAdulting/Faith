@@ -1,6 +1,6 @@
 getgenv().Faith = {
     ['Settings'] = {
-        key = "",
+        Key = "", --// Key Here
         FPSUnlocker = true,
         Intro = true,
         IntroID = "rbxassetid://2485029334"
@@ -97,3 +97,5 @@ getgenv().Faith = {
         P200 = 0.2
     }
 }
+
+script_key = getgenv().Faith.key --// do not fucking touch this
