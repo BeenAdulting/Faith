@@ -1,6 +1,8 @@
 getgenv().Faith = {
+    ["Loader"] = {
+        ["Key"] = "",
+    },
     ['Settings'] = {
-        Key = "", --// Key Here
         FPSUnlocker = true,
         Intro = true,
         IntroID = "rbxassetid://2485029334"
@@ -8,7 +10,7 @@ getgenv().Faith = {
 
     ['Camlock'] = {
         Enabled = true,
-        Keybind = Enum.KeyCode.C,
+        Keybind = Enum.KeyCode.Q,
         Prediction = 0.165,
 
         HitPart = "HumanoidRootPart",
@@ -18,7 +20,7 @@ getgenv().Faith = {
     },
 
     ['Silent'] = {
-        Enabled = true,
+        Enabled = false,
         Prediction = 0.165,
         HitChance = 100,
 
@@ -28,7 +30,7 @@ getgenv().Faith = {
 
     ['Drawing'] = {
         ['SilentAim'] = {
-            Visible = true,
+            Visible = false,
             Filled = false,
             Transparency = 1,
             Thickness = 1.25,
@@ -50,7 +52,7 @@ getgenv().Faith = {
         Enabled = true
     },
 
-    ['AA'] = { --// shits crazy 
+    ['AA'] = {
         Enabled = false,
         ToggleBind = Enum.KeyCode.B,
         EnableKeybind = true,
@@ -98,5 +100,5 @@ getgenv().Faith = {
     }
 }
 
-script_key = getgenv().Faith.Settings.Key --// do not fucking touch this
+script_key = getgenv().Faith.Loader.Key --// do not fucking touch this
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/25c24c193c139ebcb35334998747d972.lua"))()
