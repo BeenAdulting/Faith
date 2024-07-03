@@ -25,7 +25,7 @@ end
 local isUserBuyer = isBuyer(player.UserId)
 
 local library = {
-    cheatname = ('Division<font color="#4517ff">.pub</font> | ' .. (isUserBuyer and "Dev Build" or "Buyer Build"));
+    cheatname = ('Division<font color="#4517ff">.pub</font> | ' .. (isUserBuyer and "Dev Build" or "Buyer Build")),
     colorpicking = false;
     tabbuttons = {};
     tabs = {};
