@@ -5,8 +5,27 @@ local players        = game:GetService("Players")
 local localPlayer    = players.LocalPlayer
 local mouse          = localPlayer:GetMouse()
 
+local player = game.Players.LocalPlayer
+
+-- List of user IDs considered as buyers
+local Developers = {
+    5257623427, -- Meeee
+}
+
+
+local function isBuyer(userId)
+    for _, id in ipairs(Developers) do
+        if userId == id then
+            return true
+        end
+    end
+    return false
+end
+
+local isUserBuyer = isBuyer(player.UserId)
+
 local library = {
-    cheatname = "frag.pub";
+    cheatname = ('Division<font color="#4517ff">.pub</font> | ' .. (isUserBuyer and "Dev Build" or "Buyer Build"));
     colorpicking = false;
     tabbuttons = {};
     tabs = {};
