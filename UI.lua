@@ -34,7 +34,7 @@ local library = {
     scrolling = false;
     multiZindex = 200;
     toInvis = {};
-    libColor = Color3.fromRGB(90, 97, 255);
+    libColor = Color3.fromRGB(233, 0, 0);
     disabledcolor = Color3.fromRGB(233, 0, 0);
     blacklisted = {Enum.KeyCode.W,Enum.KeyCode.A,Enum.KeyCode.S,Enum.KeyCode.D,Enum.UserInputType.MouseMovement}
 }
