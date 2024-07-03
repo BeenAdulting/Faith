@@ -25,7 +25,7 @@ end
 local isUserBuyer = isBuyer(player.UserId)
 
 local library = {
-    cheatname = ('Division<font color="#4517ff">.pub</font> | ' .. (isUserBuyer and "Dev Build" or "Buyer Build")),
+    cheatname = ('Division.pub | ' .. (isUserBuyer and "Dev Build" or "Buyer Build")),
     colorpicking = false;
     tabbuttons = {};
     tabs = {};
@@ -35,7 +35,7 @@ local library = {
     multiZindex = 200;
     toInvis = {};
     libColor = Color3.fromRGB(233, 0, 0);
-    disabledcolor = Color3.fromRGB(233, 0, 0);
+    disabledcolor = Color3.fromRGB(0, 0, 0);
     blacklisted = {Enum.KeyCode.W,Enum.KeyCode.A,Enum.KeyCode.S,Enum.KeyCode.D,Enum.UserInputType.MouseMovement}
 }
 
