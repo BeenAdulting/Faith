@@ -1,4 +1,3 @@
-
 writefile("FaithKey.txt", script_key)
 script_key = readfile("FaithKey.txt")
 
