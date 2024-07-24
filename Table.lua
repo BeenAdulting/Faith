@@ -99,6 +99,3 @@ getgenv().Faith = {
         P200 = 0.2
     }
 }
-
-script_key = getgenv().Faith.Loader.Key --// do not fucking touch this
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/945ee0fe2d6f6ab9bc1358bf86493c6b.lua"))()
